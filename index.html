@@ -1,11 +1,198 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/themify-icons/themify-icons.css">
 
-    </head>
+</head>
+<body>
+    <div id="main" class="wrapper">
+        <!-- Start HEADER-->
+        <div id="header">
+            <ul class="content-header">
+                <li class="header-icon">
+                    <i class="ti-calendar"></i>
+                </li>
 
-    <body>
+                <li class="header-text">
+                    <a href="" class="nav-link">
+                        Task Management System
+                    </a>
+                </li>
 
-    
-    </body>
+            </ul>
+            <!--End content-header-->
+            <div class="user-search">
+                <li class="user-space">
+                    <div class="nav-user-space">
+                        <span class="ti-user"></span>
+                        <span class="first-name"> Lan Anh</span>
+                        <span class="ti-angle-down"></span>
+                    </div>
+                    <ul class="manage-account">
+                        <a href="" class="edit-account">
+                            <i class="ti-settings">
+                                Manage Account
+                            </i>
+                        </a>
+                        <a href="" class="log-out">
+                            <i class="ti-power-off">
+                                Logout
+                            </i>
+                        </a>
+                    </ul>
+                    
+                </li>
+                <li class="search-space">
+                    <i class="ti-search"></i>
+                </li>
+
+            </div>
+
+        </div>
+        <!-- End HEADER-->
+        
+        <!--Start Slide-Bar-->
+        <div id="slide-bar">
+            <div class="header-sliderbar">
+                <a href="" class="role-user">
+                    <h3 class="text-role">ADMIN</h3>
+                </a>
+
+            </div>
+
+            <div class="content-slidebar">
+                <li>
+                    <i class="ti-dashboard"></i>
+                    <a href="">Dashboard</a>
+                </li>
+                <li>
+                    <i class="ti-list"></i>
+                    <a href="">Task</a>
+                    <i class="ti-angle-up"></i>
+
+                    <ul class="option-task">
+                        <a href="" class="add-task">
+                            <i class="ti-angle-right">
+                                Add New
+                            </i>
+                        </a>
+                        <a href="" class="list-task">
+                            <i class="ti-angle-right">
+                                List
+                            </i>
+                        </a>
+
+                    </ul>
+                </li>
+                <li>
+                    <i class="ti-bar-chart"></i>
+                    <a href="">Board</a>
+                </li>
+                <li>
+                    <i class="ti-clipboard"></i>
+                    <a href="">Report</a>
+                </li>
+                <li>
+                    <i class="ti-align-left"></i>
+                    <a href="">Gantt Chart</a>
+                </li>
+                <li>
+                    <i class="ti-user"></i>
+                    <a href="">Users</a>
+                    <i class="ti-angle-up"></i>
+
+                    <ul class="option-user">
+                        <a href="" class="add-user">
+                            <i class="ti-angle-right">
+                                Add New
+                            </i>
+                        </a>
+                        <a href="" class="list-user">
+                            <i class="ti-angle-right">
+                                List
+                            </i>
+                        </a>
+
+                    </ul>
+                </li>
+
+            </div>
+
+        </div>
+
+        <div class="content-wrapper">
+            <div class="content-wrapper-header">
+                <p> Home </p>
+            </div>
+
+            <div class="content-wrapper-content">
+                <div class="session-welcome">
+                    Welcome Lan Anh Hoang!
+                </div>
+
+                <div class="session-main">
+                    <div class="task-progress">
+                        <div class="task-pro-header">
+                            Task Progress
+                        </div>
+                        <div class="task-pro-body">
+                            <table class="task-progress-list">
+                                <colgroup>
+                                    <col width="5%">
+                                    <col width="30%">
+                                    <col width="35%">
+                                    <col width="15%">
+                                    <col width="15%">
+                                </colgroup>
+                                <thead>
+                                    <tr><th>#</th>
+                                    <th>Task</th>
+                                    <th>Progress</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr></thead>
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                    <div class="total">
+                        <div class="total-tasks">
+                            <div class="inner">
+                                <h3 class="count">5</h3>
+                                <p class="text-total">Total Tasks</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ti-list"></i>
+                            </div>
+                        </div>
+                        <div class="total-employees">
+                            <div class="inner">
+                                <h3 class="count">5</h3>
+                                <p class="text-total">Total Employees</p>
+                            </div>
+                            <div class="icon"> 
+                                <i class="ti-user"></i>
+                            </div>                            
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
 </html>
